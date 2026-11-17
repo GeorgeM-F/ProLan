@@ -1,0 +1,104 @@
+output a
+
+Action: writing a on command line (equivalent to Python's "print(a)").
+
+
+
+YES
+
+Boolean
+
+
+
+NO
+
+Boolean
+
+
+
+not a
+
+Boolean: NO if a is YES, YES if a is NO
+
+
+
+and a
+    b
+
+Boolean: YES if both a and b are YES, otherwise NO
+
+
+
+or a
+   b
+
+Boolean: YES if at least one among a or b is YES, otherwise NO
+
+
+
+= a
+  b
+
+Boolean: YES if a is equal to b, otherwise NO
+
+
+
+< a
+  b
+
+Boolean: YES if a is lower than b, otherwise NO
+
+
+
+> a
+  b
+
+Boolean: YES if a is higher than b, otherwise NO
+
+
+
+- a
+
+Number: -a
+
+
+
++ a
+  b
+
+Number: a+b
+
+
+
+/ a
+
+Number: 1/a
+
+
+
+* a
+  b
+
+Number: a*b
+
+
+
+qnt a
+
+Number: number of elements in array a (equivalent to Python's "len(a)")
+
+
+
+set a
+    b
+    c
+    (...)
+
+Array: array containing the elements a, b, c, etc....
+
+
+
+join a
+     b
+
+Array: concatenation between arrays a and b
