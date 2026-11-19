@@ -102,3 +102,9 @@ join a
      b
 
 Array: concatenation between arrays a and b
+
+
+
+.
+
+End of the shell

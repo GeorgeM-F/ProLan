@@ -399,33 +399,33 @@ while True:
         if line==[]:
             break   # finish entering
     code.remove([])   # remove finisher
-    #print("CODE:")
-    #print(code)   # show code
-    #print()
-    #print("DECOMMENTED:")
-    #print(dcmm(code))   # show decommented
-    #print()
-    #print("FORMATTED:")
-    #print(frmt(dcmm(code)))   # show formatted
-    #print()
-    #print("LEXED:")
-    #print(lex(frmt(dcmm(code))))   # show lexed
-    #print()
-    #print("CYPHERED:")
-    #print(cyph(lex(frmt(dcmm(code)))))   # show cyphered
-    #print()
-    #print("CHARACTERIZED:")
-    #print(char(cyph(lex(frmt(dcmm(code))))))   # show characterized
-    #print()
-    #print("PARSED:")
-    #print(parse(char(cyph(lex(frmt(dcmm(code)))))))   # show parsed
-    #print()
-    #print("DEARIETIZED:")
-    #print(dert(parse(char(cyph(lex(frmt(dcmm(code))))))))   # show dearietized
-    #print()
-    #print("COLLAPSED:")
-    #print(clps(dert(parse(char(cyph(lex(frmt(dcmm(code)))))))))   # show collapsed
-    #print()
+    print("CODE:")
+    print(code)   # show code
+    print()
+    print("DECOMMENTED:")
+    print(dcmm(code))   # show decommented
+    print()
+    print("FORMATTED:")
+    print(frmt(dcmm(code)))   # show formatted
+    print()
+    print("LEXED:")
+    print(lex(frmt(dcmm(code))))   # show lexed
+    print()
+    print("CYPHERED:")
+    print(cyph(lex(frmt(dcmm(code)))))   # show cyphered
+    print()
+    print("CHARACTERIZED:")
+    print(char(cyph(lex(frmt(dcmm(code))))))   # show characterized
+    print()
+    print("PARSED:")
+    print(parse(char(cyph(lex(frmt(dcmm(code)))))))   # show parsed
+    print()
+    print("DEARIETIZED:")
+    print(dert(parse(char(cyph(lex(frmt(dcmm(code))))))))   # show dearietized
+    print()
+    print("COLLAPSED:")
+    print(clps(dert(parse(char(cyph(lex(frmt(dcmm(code)))))))))   # show collapsed
+    print()
     print("PROGRAM RESULT:")
     exe(clps(dert(parse(char(cyph(lex(frmt(dcmm(code)))))))))   # executes program
     print()
